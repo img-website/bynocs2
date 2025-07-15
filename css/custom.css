@@ -1,6 +1,6 @@
 /* ----------------------------------------------------------------------------------------
 * Author        : Awaiken
-* Template Name : Glowix - Plastic Surgery & Beauty Clinic HTML Template
+* Template Name : Bynocs
 * File          : CSS File
 * Version       : 1.0
 * ---------------------------------------------------------------------------------------- */
@@ -45,17 +45,17 @@
 /*** 	 01. Global Variables	  ***/
 /************************************/
 
-:root{
-	--primary-color				: #481E0B;
-	--secondary-color			: #FCF4F1;
-	--text-color				: #69615D;
-	--accent-color				: #CD5F37;
-	--white-color				: #FFFFFF;
-	--divider-color				: #CD5F371A;
-	--dark-divider-color		: #FFFFFF1A;
-	--error-color				: rgb(230, 87, 87);
-	--default-font				: "Sora", sans-serif;
-	--accent-font				: "Marcellus", serif;
+:root {
+	--primary-color: #28377a;              /* Deep Navy Blue */
+	--secondary-color: #F2F5FF;            /* Soft light blue background */
+	--text-color: #3B3B3B;                 /* Dark gray for readability */
+	--accent-color: #bd5500;               /* Vibrant orange for highlights */
+	--white-color: #FFFFFF;
+	--divider-color: #28377a1A;            /* Primary with 10% opacity */
+	--dark-divider-color: #FFFFFF1A;
+	--error-color: rgb(230, 87, 87);                /* Keeping same error color */
+	--default-font: "Sora", sans-serif;
+	--accent-font: "Marcellus", serif;
 }
 
 /************************************/
@@ -407,7 +407,7 @@ body{
 	line-height: 1.7em;
 	letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: var(--accent-color);
+    color: var(--primary-color);
 	padding-left: 34px;
     margin-bottom: 10px;
 }
@@ -418,7 +418,7 @@ body{
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    background: url('../images/icon-sub-heading.svg') no-repeat;
+    background: url('https://www.bynocs.com/wp-content/uploads/2024/12/cropped-cropped-cropped-siteicon-180x180-1-270x270-1-32x32.webp') no-repeat;
 	background-position: left center;
 	background-size: cover;
     width: 24px;
@@ -435,7 +435,8 @@ body{
 
 .section-title h1{
 	font-size: 60px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
+	font-weight: 800;
 	margin-bottom: 0;
 	cursor: none;
 }
@@ -646,7 +647,6 @@ header.main-header .header-sticky.active{
 }
 
 .header-contact-now{
-	font-family: var(--accent-font);
 	font-size: 20px;
 	line-height: normal;
 	color: var(--primary-color);
@@ -658,14 +658,14 @@ header.main-header .header-sticky.active{
 }
 
 .header-contact-now i{
-	background-color: var(--secondary-color);
+	background-color: rgba(95, 142, 26, 0.214);
     border-radius: 50%;
     width: 40px;
     height: 40px;
     text-align: center;
     align-content: center;
     font-size: 18px;
-    color: var(--accent-color);
+    color: green;
     margin-right: 15px;
 }
 
@@ -809,7 +809,7 @@ header.main-header .header-sticky.active{
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: 100% auto;
-	padding: 180px 0;
+	padding: 120px 0;
 	overflow: clip;
 }
 
