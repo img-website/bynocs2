@@ -643,7 +643,7 @@ header.main-header .header-sticky.active{
 .header-contact-btn{
 	display: flex;
 	align-items: center;
-	gap: 25px;
+	gap: 15px;
 }
 
 .header-contact-now{
@@ -660,13 +660,12 @@ header.main-header .header-sticky.active{
 .header-contact-now i{
 	background-color: rgba(95, 142, 26, 0.214);
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     text-align: center;
     align-content: center;
     font-size: 18px;
     color: green;
-    margin-right: 15px;
 }
 
 .header-contact-btn .btn-default{
@@ -1696,6 +1695,9 @@ header.main-header .header-sticky.active{
 	justify-content: center;
 	margin-right: 20px;
 }
+.how-work-step-item .icon-box svg{
+	z-index: 999;
+}
 
 .how-work-step-item .icon-box::before{
 	content: '';
@@ -2279,9 +2281,9 @@ header.main-header .header-sticky.active{
 	gap: 60px;
 }
 
-.footer-links{
+/* .footer-links{
 	width: calc(50% - 30px);
-}
+} */
 
 .footer-links h3{
     font-size: 22px;
@@ -3262,6 +3264,9 @@ header.main-header .header-sticky.active{
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 35px;
+}
+.service-enhance-item .icon-box svg{
+	z-index: 999;
 }
 
 .service-enhance-item .icon-box::before{
@@ -6102,6 +6107,9 @@ header.main-header .header-sticky.active{
 
 	.service-enhance-item-list{
 		gap: 20px;
+	}
+	.service-enhance-item{
+		align-items: center;
 	}
 
 	.service-enhance-item{
