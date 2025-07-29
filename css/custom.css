@@ -635,7 +635,7 @@ header.main-header .header-sticky.active{
 
 .main-menu ul ul li a:hover,
 .main-menu ul ul li a:focus{
-	color: var(--primary-color);
+	color: var(--white-color);
 	background-color: transparent;
 	padding: 8px 20px 8px 23px !important;
 }
