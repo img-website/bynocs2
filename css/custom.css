@@ -366,6 +366,19 @@ body{
 		transform: rotate(360deg);
 	}
 }
+.addresses .facts-counter-item {
+	background-color: var(--primary-color);
+	padding: 20px 20px;
+	border-radius: 30px;
+	color: white;
+}
+.addresses .facts-counter-item::before {
+	display: none;
+}
+.addresses .facts-counter-box {
+	display: flex;
+	gap: 0px;
+}
 
 .bg-section{
 	width: 100%;
