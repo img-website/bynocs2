@@ -660,26 +660,25 @@ header.main-header .header-sticky.active{
 }
 
 .header-contact-now{
-	font-size: 20px;
+	font-size: 24px;
 	line-height: normal;
-	color: var(--primary-color);
+	border-radius: 50px;
+	color: var(--white-color);
+	background-color: green;
+	border: 2px solid green;
+	width: 50px;
+	height: 50px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
 	transition: all 0.3s ease-in-out;
 }
 
 .header-contact-now:hover{
-	color: var(--accent-color);
+	color: green;
+	background-color: transparent;
 }
 
-.header-contact-now i{
-	background-color: rgba(95, 142, 26, 0.214);
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    align-content: center;
-    font-size: 18px;
-    color: green;
-}
 
 .header-contact-btn .btn-default{
 	margin-right: 0;
@@ -1176,7 +1175,7 @@ header.main-header .header-sticky.active{
 
 .about-contact-box .icon-box i{
 	font-size: 22px;
-	color: var(--accent-color);
+	color: green;
 }
 
 .about-contact-box-content{
@@ -1630,7 +1629,7 @@ header.main-header .header-sticky.active{
 
 .why-choose-contact-item .icon-box i{
 	position: relative;
-	background: var(--accent-color);
+	background: green;
 	border-radius: 50%;
 	width: 36px;
 	height: 36px;
