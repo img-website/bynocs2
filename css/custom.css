@@ -2694,6 +2694,10 @@ header.main-header .header-sticky.active{
 	max-width: 30px;
 	z-index: 1;
 }
+.approach-support-box .icon-box i{
+	position: relative;
+	z-index: 1;
+}
 
 .approach-support-box-content{
 	position: relative;
