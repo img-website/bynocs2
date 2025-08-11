@@ -1730,7 +1730,8 @@ header.main-header .header-sticky.active{
 	transform: scale(1);
 }
 
-.how-work-step-item .icon-box img{
+.how-work-step-item .icon-box img,
+.how-work-step-item .icon-box i{
 	position: relative;
 	max-width: 34px;
 	z-index: 1;
@@ -2443,9 +2444,47 @@ header.main-header .header-sticky.active{
 	color: var(--white-color);
 	font-size: 60px;
     font-weight: 400;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	margin-bottom: 10px;
 	cursor: none;
+}
+.visionTherapySoftwareForLazyEyeSection {
+	position: relative;
+	overflow: hidden;
+}
+.visionTherapySoftwareForLazyEyeSection img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+}
+.visionTherapySoftwareForLazyEyeSection .container {
+	position: relative;
+	z-index: 1;
+}
+.visionTherapySoftwareForLazyEye2Section .mission-vison-content h3 {
+	letter-spacing: normal;
+	padding-left: 0px;
+}
+.visionTherapySoftwareForLazyEye2Section .mission-vison-content h3::before {
+	display: none;
+}
+.visionTherapySoftwareForLazyEye3Section .mission-vison-content h3 {
+	letter-spacing: normal;
+	padding-left: 0px;
+}
+.visionTherapySoftwareForLazyEye3Section .mission-vison-content h3::before {
+	display: none;
+}
+.visionTherapySoftwareForLazyEye3Section .how-work-content {
+	position: static;
+}
+.visionTherapySoftwareForLazyEye3Section .how-work-steps {
+    position: sticky;
+    top: 30px;
+    margin-right: 20px;
 }
 
 .page-header-box ol{
