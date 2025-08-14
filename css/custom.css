@@ -3991,9 +3991,11 @@ header.main-header .header-sticky.active{
 	flex-wrap: wrap;
 }
 
-.team-member-image,
+.team-member-image{
+	width: calc(30% - 30px);
+}
 .team-member-content{
-	width: calc(50% - 30px);
+	width: calc(70% - 30px);
 }
 
 .team-member-image figure{
