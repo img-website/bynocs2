@@ -4397,7 +4397,8 @@ header.main-header .header-sticky.active{
 	transform: scale(1);
 }
 
-.contact-info-item .icon-box img{
+.contact-info-item .icon-box img,
+.contact-info-item .icon-box i {
 	position: relative;
 	max-width: 26px;
 	z-index: 1;
